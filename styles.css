@@ -84,9 +84,9 @@ footer a:hover {
 }
 
 .profile-pic {
-    width: 140px; /* Slightly larger */
-    height: 140px; /* Slightly larger */
-    border-radius: 70%;
+    width: 250px; /* Slightly larger */
+    height: auto; /* Slightly larger */
+    border-radius: 50%;
     border: 1px solid #2c3e50;
 }
 
