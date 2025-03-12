@@ -85,23 +85,23 @@ footer a:hover {
 
 /* Profile Photo (About Section) */
 .profile-photo {
-    width: 80px; /* Adjust as needed */
+    width: 130px; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
 /* Calligraphy Photos (Calligraphy Section) */
-.calligraphy-photo {
-    width: 100%; /* Adjust as needed */
-    max-width: 300px; /* Limit maximum size */
-    height: auto; /* Maintain aspect ratio */
-    border: 1px solid #ddd; /* Optional: Add a border */
-    border-radius: 4px; /* Optional: Slightly rounded corners */
-    padding: 5px; /* Optional: Add padding */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.calligraphy-photo:hover {
-    transform: scale(1.05); /* Optional: Add hover effect */
+.gallery img:hover {
+    transform: scale(1.05);
     transition: transform 0.3s ease;
 }
 
