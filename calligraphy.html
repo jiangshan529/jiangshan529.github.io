@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calligraphy - Jiangshan Bai</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Lightbox2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,10 +21,18 @@
     <main>
         <h2>My Calligraphy Works</h2>
         <div class="gallery">
-    		<img src="images/image1.jpeg" alt="Calligraphy Work 1">
-    		<img src="images/image2.jpeg" alt="Calligraphy Work 2">
+            <!-- Wrap images with <a> tags for lightbox -->
+            <a href="images/image1.jpeg" data-lightbox="calligraphy" data-title="Calligraphy Work 1">
+                <img src="images/image1.jpeg" alt="Calligraphy Work 1">
+            </a>
+            <a href="images/image2.jpeg" data-lightbox="calligraphy" data-title="Calligraphy Work 2">
+                <img src="images/image2.jpeg" alt="Calligraphy Work 2">
+            </a>
+            <!-- Add more images as needed -->
         </div>
     </main>
 
+    <!-- Lightbox2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 </body>
 </html>

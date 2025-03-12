@@ -90,19 +90,30 @@ footer a:hover {
 }
 
 /* Calligraphy Photos (Calligraphy Section) */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Add spacing between images */
+}
+
+.gallery a {
+    display: block; /* Ensure the link behaves as a block element */
+    flex: 1 1 calc(33.333% - 20px); /* Adjust for 3 images per row with gap */
+    max-width: 300px; /* Limit maximum size */
+}
+
 .gallery img {
     width: 100%;
-    max-width: 300px;
     height: auto;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 .gallery img:hover {
     transform: scale(1.05);
-    transition: transform 0.3s ease;
 }
 
 /* Sections */
